@@ -13,7 +13,7 @@
     <div class="card p-6 p-lg-10 space-y-4 text-start">
         <div class="card-body">
             <h1 class="card-title">
-                Website Feedback
+                Website FeedbackController
             </h1>
 
             @yield('content')

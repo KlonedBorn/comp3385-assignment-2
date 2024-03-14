@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" style="-fx-font-family: Arial;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitWidth="64.0" layoutX="168.0" layoutY="14.0">
+         <image>
+            <Image url="@accept.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="121.0" layoutY="89.0" style="-fx-text-fill: #4BAE4F; -fx-font-size: 36px; -fx-font-weight: bold;" text="Success!" />
+      <Label alignment="CENTER" layoutX="43.0" layoutY="132.0" prefHeight="54.0" prefWidth="314.0" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Thank you for your feedback. We will review your feedback and get back to you" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
